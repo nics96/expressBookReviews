@@ -4,7 +4,7 @@ let books = require("./booksdb.js");
 let isValid = require("./auth_users.js").isValid;
 let users = require("./auth_users.js").users;
 
-//const baseUrl = "https://amenzelealem-5000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai"
+
 const public_users = express.Router();
 
 
